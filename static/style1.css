@@ -1,0 +1,155 @@
+body{
+    background-color: rgb(5,5,101);
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+h{
+    color: green;
+    font: "Script MT Bold";
+    margin: 20px;
+    font-size: 1em;
+}
+
+h1{
+    color: #E85A4F;
+    font: "Script MT Bold";
+    margin: 20px;
+    font-size: 1.8em;
+}
+h3{
+    color: palevioletred;
+    font-size: 1.3em;
+}
+.res_mes{
+    text-align: left;
+    color: slategrey;
+    font-size: 1.2em;
+}
+.pos_head{
+    color: green;
+    font-size: 1.4em;
+    margin: 10px;
+}
+.neg_head{
+    color: red;
+    font-size: 1.4em;
+    margin: 10px;
+}
+.neu_head{
+    color:pink;
+    font-size: 1.4em;
+    margin: 10px;
+
+}
+
+input{
+    color: white;
+    background-color:rgb(5,5,101);
+    text-align: center;
+    width: 600px;
+    height: 70px;
+    margin: 10px;
+    border: solid 2px white;
+    border-radius: 10px;
+    font: Georgia;
+    font-size: 1em;
+}
+input:focus{
+    border: solid 2px black;
+    outline: none;
+    background-color: white;
+    color:black
+}
+input:hover{
+    background-color: white;
+    color: black;
+}
+
+table{
+    text-align: left;
+    border-spacing: 0px;
+    margin: 2rem;
+    background-color: white;
+}
+tr{
+    color: black;
+    text-align: left;
+    padding: 10px;
+}
+tr:nth-child(even){
+    background-color: #C0C0C0;
+}
+tr:nth-child(odd){
+    background-color: #C0C0C0;
+}
+tr:hover{
+    background-color: #708090;
+}
+
+#Scrap{
+    background-color: red;
+    color: lightyellow;
+    width: 200px;
+    height: 35px;
+    border: none;
+}
+#Scrap:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+#Scrap:focus{
+    border: none;
+}
+
+#loading{
+  margin: 60px;
+  display: none;
+  position: relative;
+}
+#loading span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: whitesmoke;
+  animation: flip 5s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg)
+  }
+}
+
+ img{
+    size: 100px 100px;
+}
+.icon{
+
+    width: 100px;
+    height:100px;
+    align-items: center;
+}
+#mail{
+    width: 400px;
+    height: 40px;
+}
+h2{
+    color:white;
+    text-align: center;
+    font-size: 40px;
+}
+p{
+    color: red;
+    text-align: center;
+    font-size: 19px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.charts{
+    width: 50%;
+    height: 65%;
+}

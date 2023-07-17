@@ -1,0 +1,76 @@
+body{
+        background-color: rgb(5,5,101);
+        background-size: cover;
+        height: 100vh;
+        text-align: center;
+    }
+    
+ 
+    h2{
+        color: white;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    input{
+        color: white;
+        background-color:rgb(5,5,101);
+        text-align: center;
+        width: 600px;
+        height: 70px;
+        margin: 10px;
+        border: solid 2px white;
+        border-radius: 10px;
+        font: Georgia;
+        font-size: 1em;
+    }
+    input:focus{
+        border: solid 2px black;
+        outline: none;
+        background-color: white;
+    }
+    input:hover{
+        background-color: white;
+    }
+
+    #Button{
+        background-color: red;
+        color: lightyellow;
+        width: 200px;
+        height: 35px;
+        border: none;
+        border-radius: 10px;
+        
+    }
+    #Button:hover{
+        background-color: red;
+        color: white;
+        cursor: pointer;
+        font-size: 1.2em;
+    }
+    #Button:focus{
+        border: none;
+    }
+    
+    
+     img{
+        size: 100px 100px;
+    }
+    .icon{
+    
+        width: 100px;
+        height:100px;
+        align-items: center;
+    }
+    #mail{
+        width: 400px;
+        height: 40px;
+    }
+    h2{
+        color:white;
+        text-align: center;
+        font-size: 40px;
+    }
+ 
+    
+
